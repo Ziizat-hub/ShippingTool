@@ -1,0 +1,89 @@
+/* #results-heading{
+    color:teal;
+} */
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#button-container{
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    border: none;
+    background: none;
+    font-size: 1.1rem;
+}
+
+#button-container :first-child{
+    color: teal;
+}
+
+title-div{
+    text-align: center;
+    background: teal;
+    width: 350px;
+    margin: 50px auto;
+    padding:  20px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#form-container{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    background: whitesmoke;
+    width: 400px;
+    margin: auto;
+    padding: 40px;
+    margin: 50px;
+    border-radius: 20px;
+    justify-self: center;
+}
+
+form1{
+    input{
+        margin: 10px 0;
+    }
+
+    #equals-btn{
+        padding: 0 10px;
+        border: none;
+        background: teal;
+        color: white;
+        font-size: 2.5rem;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+}
+
+#landing-price-form{
+    display: none;
+
+    #calculate-btn{
+        background-color: teal;
+        color: white;
+        font-weight: bold;
+        border: none;
+        padding: 10px 20px;
+    }
+}
+
